@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BankApp.RegistrationPage"
+             Title="RegistrationPage" Background="#7af400">
+    <VerticalStackLayout>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+            <Entry BackgroundColor="White" Placeholder="name" WidthRequest="260" Margin="0,50,0,0"/>
+            <Entry BackgroundColor="White" Placeholder="surname" Margin="0,20,0,0"/>
+            <Entry BackgroundColor="White" Placeholder="phone" WidthRequest="260" Margin="0,20,0,0"/>
+            <Entry BackgroundColor="White" Placeholder="login" Margin="0,20,0,0"/>
+            <Entry BackgroundColor="White" Placeholder="password" WidthRequest="260" Margin="0,20,0,0"/>
+            <Entry BackgroundColor="White" Placeholder="confirm password" Margin="0,20,0,0"/>
+            <Button Text="Confirm"
+                    Background="#534d4d"
+                    Margin="0,50,0,0"
+                    WidthRequest="140"/>
+            <Label Text="Банк online" TextColor="White" HorizontalOptions="Center" FontSize="20" Margin="0,100,0,0"/>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
